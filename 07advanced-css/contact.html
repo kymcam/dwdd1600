@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>kymariedesign</title>
+<meta name="viewport" content="width=device-width, initial scale=1">
+<meta name="description" content="kymariedesign portfolio">
+<meta name="author" content="KyLee Cameron">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="portfolio.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Oi&family=Oxygen:wght@300;400;700&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+
+</head>
+<body>
+<!--This is the start of the header section-->
+<header>
+<img src="images/logo.png" alt="site logo" width="100" height="76">
+<div>
+    <h1>kymariedesign</h1>
+    <p> welcome to my world of <em>color and creativity!</em></p>
+</div>
+</header>
+
+<!--This is the start of the nav section-->
+<nav>
+<ul>
+    <li><a href="index.html">home</a></li>
+    <li class="active"><a href="contact.html">contact me</a></li>
+    <li><a href="portfolio.html">portfolio</a></li>
+    <li><a href="about.html">about</a></li>
+</ul>
+</nav>
+
+<!--This is the start of the main section-->
+<main>
+   <h1 id="contact"> lets work together!</h1>
+
+<h2>fill out an inquiry form</h2>
+<form method="get" class="myForm" action="thanks.html">
+<fieldset>
+    <legend>Personal Contact Information</legend>
+   <label>First Name* <input type="text" name="fname" required></label>
+   <label>Last Name* <input type="text" name="lname" required></label>
+   <label>Email* <input type="email" name="email" required></label>
+</fieldset>
+
+
+<fieldset>
+    <legend>Expected Timeframe</legend>
+    <label><input type="radio" name="method" value="weeks"> 2 Weeks</label>
+    <label><input type="radio" name="method" value="month"> 1 Month</label>
+    <label><input type="radio" name="method" value="months"> 2+ Months</label>
+    </fieldset>
+
+   <fieldset>
+   <legend>Project Deliverables Needed</legend>
+   <label><input type="checkbox" name="cards" value="chosen"> Business Cards</label>
+   <label><input type="checkbox" name="socials" value="chosen"> Social Media Templates</label>
+   <label><input type="checkbox" name="icons" value="chosen"> Icons/Illustrations</label>
+   <label><input type="checkbox" name="website" value="chosen"> Website Design</label>
+
+   <label>Packages
+   <select name="time">
+    <option value="none">Please Select Your Desired Package</option>
+    <option value="logo">Strategy & Logo Suite</option>
+    <option value="branding">Branding & Social Media</option>
+    <option value="everything">Everything + Packaging Design</option>
+   </select>
+</label>
+   </fieldset>
+
+   <label>Comments
+    <textarea name="comments"></textarea>
+   </label>
+
+
+    <input type="submit" value="Submit Inquiry Form">
+</form>
+
+<h2>follow me on social media!</h2>
+<dl>
+    <dt>@kymariedesign</dt>
+    <dt>@kylee.cameron</dd>
+    <dt>add a linked in here as well</dt>
+</dl>
+
+</main>
+
+<!--This is the start of the footer section-->
+<footer>
+<p>&copy; 2024  |  KyLee Cameron  &bull;  <a href="kyleecameron30@gmail.com"> email me!</a></p>
+</footer>
+
+</body>
+
+</html>
